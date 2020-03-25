@@ -1,0 +1,10 @@
+.anon {
+    .custom-hamburger-link.the-exchange-login { 
+        display:none; }
+}
+
+html:not(.anon) {
+  .custom-hamburger-link.the-exchange {
+    display: none;
+  }
+}

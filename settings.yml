@@ -1,5 +1,5 @@
 Hamburger_links:
   type: list
-  default: "Footer Link,https://google.com,f|General Link,https://twitter.com,g"
+  default: "The Exchange, https://www.ssatuk.co.uk, f|The Exchange - Login, https://identity.ssatuk.co.uk/identity/connect/authorize?scope=openid+profile+email+ssat+offline_access&response_type=code&client_id=wplive&redirect_uri=https%3A%2F%2Fwww.ssatuk.co.uk%2Fwp-admin%2Fadmin-ajax.php%3Faction%3Dssat-sso-connect-callback&state=eyJyZWRpcmVjdF90byI6Imh0dHBzOi8vd3d3LnNzYXR1ay5jby51ay8ifQ==, f"
   description:
     en: 'Comma delimited in this order: Text,URL,Location.<br><b>Text:</b> what appears on the menu.<br><b>URL:</b> the path for the link.<br><b>Location:</b> where you want the link to appear. Use "g" for generalLinks and "f" for footerLinks.'
